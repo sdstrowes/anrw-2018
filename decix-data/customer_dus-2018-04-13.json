@@ -1,0 +1,1035 @@
+{
+    "version": "0.7",
+    "timestamp": "2018-04-13T08:10:18Z",
+    "ixp_list": [
+        {
+            "ixp_id": 9,
+            "shortname": "DE-CIX DUS",
+            "support_contact_hours": "8\/5",
+            "emergency_contact_hours": "24\/7",
+            "billing_contact_hours": "8\/5",
+            "name": "DE-CIX Dusseldorf",
+            "switch": [
+                {
+                    "id": 65,
+                    "name": "edge01.dus1.dus"
+                }
+            ],
+            "vlan": [
+                {
+                    "id": 12921,
+                    "name": "Standard Peering Service Dusseldorf",
+                    "ipv4": {
+                        "prefix": "185.1.58.0",
+                        "mask_length": 24
+                    },
+                    "ipv6": {
+                        "prefix": "2001:7f8:9e::",
+                        "mask_length": 48
+                    }
+                }
+            ],
+            "ixf_id": 565,
+            "url": "https:\/\/www.de-cix.net\/en\/locations\/germany\/dusseldorf"
+        }
+    ],
+    "member_list": [
+        {
+            "asnum": 42,
+            "name": "Packet Clearing House",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 2,
+                            "if_speed": 10000,
+                            "if_type": "10GBASE-LR"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.29",
+                                "routeserver": true,
+                                "as_macro": "AS-PCH"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::2a:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-PCH"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 3856,
+            "name": "Packet Clearing House",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 2,
+                            "if_speed": 10000,
+                            "if_type": "10GBASE-LR"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.30",
+                                "routeserver": true,
+                                "as_macro": "AS-PCH"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::f10:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-PCH"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 6939,
+            "name": "Hurricane Electric",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 10000,
+                            "if_type": "lacp"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.17",
+                                "routeserver": true,
+                                "as_macro": "AS-HURRICANE"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::1b1b:0:1",
+                                "routeserver": true,
+                                "max_prefix": 40000,
+                                "as_macro": "AS-HURRICANEV6"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 8804,
+            "name": "regio[.NET] Upstream GmbH & Co. KG",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 7,
+                            "if_speed": 1000,
+                            "if_type": "1000BASE-LX"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.21",
+                                "routeserver": true,
+                                "as_macro": "AS-IX-REGIONET"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::2264:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-IX-REGIONET"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 12470,
+            "name": "GLOBE Development GmbH Backbone Germany",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 10000,
+                            "if_type": "10GBASE-LR"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.19",
+                                "routeserver": true,
+                                "as_macro": "AS-GLOBENET"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::30b6:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-GLOBENET"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 12883,
+            "name": "Ucomline LTD - JSC Farlep-Invest",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 4,
+                            "if_speed": 10000,
+                            "if_type": "lacp"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.6",
+                                "routeserver": true,
+                                "as_macro": "AS-UCOMLINE"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::3253:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-UCOMLINE"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 13194,
+            "name": "UAB Bite Lietuva",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 4,
+                            "if_speed": 20000,
+                            "if_type": "lacp"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.31",
+                                "routeserver": true,
+                                "as_macro": "AS-BITE"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::338a:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-BITE"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 13335,
+            "name": "Cloudflare, Inc",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 10000,
+                            "if_type": "10GBASE-LR"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.2",
+                                "routeserver": true,
+                                "as_macro": "AS-CLOUDFLARE"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::3417:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-CLOUDFLARE"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 24961,
+            "name": "myLoc managed IT AG",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 10000,
+                            "if_type": "10GBASE-LR"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.3",
+                                "routeserver": true,
+                                "as_macro": "AS-MYLOC"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::6181:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-MYLOC"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 25279,
+            "name": "Treml & Sturm Datentechnik GmbH",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 1000,
+                            "if_type": "1000BASE-LX"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.13",
+                                "routeserver": true,
+                                "as_macro": "AS-TREML-STURM"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::62bf:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-TREML-STURM"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 25560,
+            "name": "rh-tec Business GmbH",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 4,
+                            "if_speed": 10000,
+                            "if_type": "10GBASE-LR"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.26",
+                                "routeserver": true,
+                                "as_macro": "AS-RHTEC"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::63d8:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-RHTEC6"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 33891,
+            "name": "AS33891 Netzbetrieb GmbH aka Core-Backbone",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 10000,
+                            "if_type": "lacp"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.1",
+                                "routeserver": true,
+                                "as_macro": "AS-CORE-BACKBONE"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::8463:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-CORE-BACKBONE"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 39912,
+            "name": "Oja.at GmbH",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 1,
+                            "if_speed": 30000,
+                            "if_type": "lacp"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.20",
+                                "routeserver": true,
+                                "as_macro": "AS-I3B-TRANSIT-V4"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::9be8:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-I3B-TRANSIT-V6"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 50629,
+            "name": "LWLcom GmbH",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 1000,
+                            "if_type": "1000BASE-LX"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.10",
+                                "routeserver": true,
+                                "as_macro": "AS-LWL"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::c5c5:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-LWL"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 20847,
+            "name": "Previder B.V.",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 17,
+                            "if_speed": 1000,
+                            "if_type": "1000BASE-LX"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.23",
+                                "routeserver": true,
+                                "as_macro": "AS-PREVIDER"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::516f:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-PREVIDER"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 199524,
+            "name": "G-Core labs S.A",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 4,
+                            "if_speed": 100000,
+                            "if_type": "lacp"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.18",
+                                "routeserver": true,
+                                "as_macro": "AS-GCORE"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e:0:3:b64:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-GCORE"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 43350,
+            "name": "NFOrce Entertainment B.V.",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 6,
+                            "if_speed": 20000,
+                            "if_type": "lacp"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.27",
+                                "routeserver": true,
+                                "as_macro": "AS-NFORCE"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::a956:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-NFORCE"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 4,
+                            "if_speed": 20000,
+                            "if_type": "lacp"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.37",
+                                "routeserver": true,
+                                "as_macro": "AS-NFORCE"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::a956:0:2",
+                                "routeserver": true,
+                                "as_macro": "AS-NFORCE"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 35258,
+            "name": "akquinet outsourcing gGmbH",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 81,
+                            "if_speed": 1000,
+                            "if_type": "1000BASE-LX"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.25",
+                                "routeserver": true,
+                                "as_macro": "AS-AKQUINET"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::89ba:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-AKQUINET"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 62955,
+            "name": "eBay, Inc",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 10000,
+                            "if_type": "10GBASE-LR"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.15",
+                                "routeserver": true,
+                                "as_macro": "AS-EBAYMTBB"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::f5eb:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-EBAYMTBB"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 51531,
+            "name": "DE-CIX Management GmbH",
+            "connection_list": []
+        },
+        {
+            "asnum": 201701,
+            "name": "Freifunk Rheinland e.V.",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 10000,
+                            "if_type": "10GBASE-LR"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.12",
+                                "routeserver": true,
+                                "as_macro": "AS-FFRL"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e:0:3:13e5:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-FFRL"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 14340,
+            "name": "Salesforce.com, Inc.",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 1,
+                            "if_speed": 10000,
+                            "if_type": "lacp"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.32",
+                                "routeserver": true,
+                                "as_macro": "AS-SALESFORCE"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::3804:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-SALESFORCE"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 60522,
+            "name": "KomMITT-Ratingen GmbH",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 10000,
+                            "if_type": "10GBASE-LR"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.8",
+                                "routeserver": true,
+                                "as_macro": "AS-KOMMITT"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::ec6a:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-KOMMITT"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 48821,
+            "name": "Mauve Mailorder Software GmbH & Co KG",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 1000,
+                            "if_type": "1000BASE-LX"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.11",
+                                "routeserver": true,
+                                "as_macro": "AS-MAUVE"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::beb5:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-MAUVE"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 35548,
+            "name": "smartTERRA GmbH",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 1000,
+                            "if_type": "1000BASE-LX"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.14",
+                                "routeserver": true,
+                                "as_macro": "AS-SMARTTERRA"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::8adc:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-SMARTTERRA"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 42184,
+            "name": "tkrz Stadtwerke GmbH",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 10000,
+                            "if_type": "10GBASE-LR"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.16",
+                                "routeserver": true,
+                                "as_macro": "AS-TKRZ"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::a4c8:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-TKRZ"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 112,
+            "name": "AS112 - RFC7534",
+            "connection_list": []
+        },
+        {
+            "asnum": 206356,
+            "name": "Freifunk Essen e.V.",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 1000,
+                            "if_type": "1000BASE-LX"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.22",
+                                "routeserver": true,
+                                "as_macro": "AS-FFE"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e:0:3:2614:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-FFE"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 197965,
+            "name": "ahd GmbH & Co. KG",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 1,
+                            "if_speed": 10000,
+                            "if_type": "10GBASE-LR"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.24",
+                                "routeserver": true,
+                                "as_macro": "AS197965"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e:0:3:54d:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS197965"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 15695,
+            "name": "Expereo International",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 2,
+                            "if_speed": 10000,
+                            "if_type": "10GBASE-LR"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.36",
+                                "routeserver": true,
+                                "as_macro": "AS-EXPEREO"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e::3d4f:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-EXPEREO"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 200615,
+            "name": "MyVirtualserver",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 10000,
+                            "if_type": "10GBASE-LR"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.33",
+                                "routeserver": true,
+                                "as_macro": "AS-MYVIRTUALSERVER"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e:0:3:fa7:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-MYVIRTUALSERVER"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "asnum": 199714,
+            "name": "Philuweb UG",
+            "connection_list": [
+                {
+                    "ixp_id": 9,
+                    "state": "operational",
+                    "if_list": [
+                        {
+                            "switch_id": 65,
+                            "if_speed": 1000,
+                            "if_type": "1000BASE-LX"
+                        }
+                    ],
+                    "vlan_list": [
+                        {
+                            "vlan_id": 12921,
+                            "ipv4": {
+                                "address": "185.1.58.35",
+                                "routeserver": true,
+                                "as_macro": "AS-HERMSIT"
+                            },
+                            "ipv6": {
+                                "address": "2001:7f8:9e:0:3:2138:0:1",
+                                "routeserver": true,
+                                "as_macro": "AS-HERMSIT"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

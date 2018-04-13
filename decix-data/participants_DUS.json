@@ -1,0 +1,362 @@
+[
+  {
+    "asnum": 42,
+    "whois_asnum": "stat.ripe.net/as42",
+    "name": "Packet Clearing House",
+    "as_macro": "AS-PCH",
+    "whois_as_macro": "www.radb.net/query/?keywords=AS-PCH",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": "http://www.pch.net/peering/"
+  },
+  {
+    "asnum": 112,
+    "whois_asnum": "stat.ripe.net/as112",
+    "name": "AS112 - RFC7534",
+    "as_macro": "AS112",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS112",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 3856,
+    "whois_asnum": "stat.ripe.net/as3856",
+    "name": "Packet Clearing House",
+    "as_macro": "AS-PCH",
+    "whois_as_macro": "www.radb.net/query/?keywords=AS-PCH",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 6697,
+    "whois_asnum": "stat.ripe.net/as6697",
+    "name": "Beltelecom",
+    "as_macro": "",
+    "whois_as_macro": "",
+    "status": "CONNECTING",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 6939,
+    "whois_asnum": "stat.ripe.net/as6939",
+    "name": "Hurricane Electric",
+    "as_macro": "AS-HURRICANE",
+    "whois_as_macro": "www.radb.net/query/?keywords=AS-HURRICANE",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": "http://he.net/peering.html"
+  },
+  {
+    "asnum": 8403,
+    "whois_asnum": "stat.ripe.net/as8403",
+    "name": "Spotify GmbH",
+    "as_macro": "AS-SPOTIFY",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-SPOTIFY",
+    "status": "CONNECTING",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 8804,
+    "whois_asnum": "stat.ripe.net/as8804",
+    "name": "regio[.NET] Upstream GmbH &amp; Co. KG",
+    "as_macro": "AS-IX-REGIONET",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-IX-REGIONET",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 12470,
+    "whois_asnum": "stat.ripe.net/as12470",
+    "name": "GLOBE Development GmbH Backbone Germany",
+    "as_macro": "AS-GLOBENET",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-GLOBENET",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 12883,
+    "whois_asnum": "stat.ripe.net/as12883",
+    "name": "Ucomline LTD - JSC Farlep-Invest",
+    "as_macro": "AS-UCOMLINE",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-UCOMLINE",
+    "status": "ACTIVE",
+    "peering_policy_list": "Selective",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 13194,
+    "whois_asnum": "stat.ripe.net/as13194",
+    "name": "UAB Bite Lietuva",
+    "as_macro": "AS-BITE",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-BITE",
+    "status": "ACTIVE",
+    "peering_policy_list": "Selective",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 13335,
+    "whois_asnum": "stat.ripe.net/as13335",
+    "name": "Cloudflare, Inc",
+    "as_macro": "AS-CLOUDFLARE",
+    "whois_as_macro": "AS-CLOUDFLARE",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 14340,
+    "whois_asnum": "stat.ripe.net/as14340",
+    "name": "Salesforce.com, Inc.",
+    "as_macro": "AS-SALESFORCE",
+    "whois_as_macro": "AS-SALESFORCE",
+    "status": "ACTIVE",
+    "peering_policy_list": "Selective",
+    "url_peering_policy": "http://www.salesforce.com/peering"
+  },
+  {
+    "asnum": 15695,
+    "whois_asnum": "stat.ripe.net/as15695",
+    "name": "Expereo International",
+    "as_macro": "AS-EXPEREO",
+    "whois_as_macro": "www.radb.net/query/?keywords=AS-EXPEREO",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 20676,
+    "whois_asnum": "stat.ripe.net/as20676",
+    "name": "QSC AG",
+    "as_macro": "",
+    "whois_as_macro": "",
+    "status": "CONNECTING",
+    "peering_policy_list": "Selective",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 20847,
+    "whois_asnum": "stat.ripe.net/as20847",
+    "name": "Previder B.V.",
+    "as_macro": "AS-PREVIDER",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-PREVIDER",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 24961,
+    "whois_asnum": "stat.ripe.net/as24961",
+    "name": "myLoc managed IT AG",
+    "as_macro": "AS-MYLOC",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-MYLOC",
+    "status": "ACTIVE",
+    "peering_policy_list": "Selective",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 25279,
+    "whois_asnum": "stat.ripe.net/as25279",
+    "name": "Treml &amp; Sturm Datentechnik GmbH",
+    "as_macro": "AS-TREML-STURM",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-TREML-STURM",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": "http://www.treml-sturm.de/treml-sturm-datentechnik-gmbh/technik/netzwerk/peering-policy.html"
+  },
+  {
+    "asnum": 25560,
+    "whois_asnum": "stat.ripe.net/as25560",
+    "name": "rh-tec Business GmbH",
+    "as_macro": "AS-RHTEC",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-RHTEC",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 33891,
+    "whois_asnum": "stat.ripe.net/as33891",
+    "name": "AS33891 Netzbetrieb GmbH aka Core-Backbone",
+    "as_macro": "AS-CORE-BACKBONE",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-CORE-BACKBONE",
+    "status": "ACTIVE",
+    "peering_policy_list": "Selective",
+    "url_peering_policy": "http://www.core-backbone.com/files/peering_policy.pdf"
+  },
+  {
+    "asnum": 35258,
+    "whois_asnum": "stat.ripe.net/as35258",
+    "name": "akquinet outsourcing gGmbH",
+    "as_macro": "AS-AKQUINET",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-AKQUINET",
+    "status": "ACTIVE",
+    "peering_policy_list": "Selective",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 35548,
+    "whois_asnum": "stat.ripe.net/as35548",
+    "name": "smartTERRA GmbH",
+    "as_macro": "AS-SMARTTERRA",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-SMARTTERRA",
+    "status": "ACTIVE",
+    "peering_policy_list": "Selective",
+    "url_peering_policy": "http://smartterra.net"
+  },
+  {
+    "asnum": 39912,
+    "whois_asnum": "stat.ripe.net/as39912",
+    "name": "Oja.at GmbH",
+    "as_macro": "AS-I3B-TRANSIT-V4",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-I3B-TRANSIT-V4",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 42184,
+    "whois_asnum": "stat.ripe.net/as42184",
+    "name": "tkrz Stadtwerke GmbH",
+    "as_macro": "AS-TKRZ",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-TKRZ",
+    "status": "ACTIVE",
+    "peering_policy_list": "Selective",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 43350,
+    "whois_asnum": "stat.ripe.net/as43350",
+    "name": "NFOrce Entertainment B.V.",
+    "as_macro": "AS-NFORCE",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-NFORCE",
+    "status": "ACTIVE",
+    "peering_policy_list": "Selective",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 43623,
+    "whois_asnum": "stat.ripe.net/as43623",
+    "name": "ARD-Sternpunkt",
+    "as_macro": "",
+    "whois_as_macro": "",
+    "status": "CONNECTING",
+    "peering_policy_list": "UNKNOWN",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 48821,
+    "whois_asnum": "stat.ripe.net/as48821",
+    "name": "Mauve Mailorder Software GmbH &amp; Co KG",
+    "as_macro": "AS-MAUVE",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-MAUVE",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 50629,
+    "whois_asnum": "stat.ripe.net/as50629",
+    "name": "LWLcom GmbH",
+    "as_macro": "AS-LWL",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-LWL",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 51531,
+    "whois_asnum": "stat.ripe.net/as51531",
+    "name": "DE-CIX Management GmbH",
+    "as_macro": "AS-DECIX-SERVICES",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-DECIX-SERVICES",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 60522,
+    "whois_asnum": "stat.ripe.net/as60522",
+    "name": "KomMITT-Ratingen GmbH",
+    "as_macro": "AS-KOMMITT",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-KOMMITT",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 62955,
+    "whois_asnum": "stat.ripe.net/as62955",
+    "name": "eBay, Inc",
+    "as_macro": "AS-EBAYMTBB",
+    "whois_as_macro": "www.radb.net/query/?keywords=AS-EBAYMTBB",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 197965,
+    "whois_asnum": "stat.ripe.net/as197965",
+    "name": "ahd GmbH &amp; Co. KG",
+    "as_macro": "AS197965",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS197965",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 199524,
+    "whois_asnum": "stat.ripe.net/as199524",
+    "name": "G-Core labs S.A",
+    "as_macro": "AS-GCORE",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-GCORE",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 199714,
+    "whois_asnum": "stat.ripe.net/as199714",
+    "name": "Philuweb UG",
+    "as_macro": "AS-HERMSIT",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-HERMSIT",
+    "status": "ACTIVE",
+    "peering_policy_list": "",
+    "url_peering_policy": "http://www.ffrl.de/"
+  },
+  {
+    "asnum": 200615,
+    "whois_asnum": "stat.ripe.net/as200615",
+    "name": "MyVirtualserver",
+    "as_macro": "AS-MYVIRTUALSERVER",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-MYVIRTUALSERVER",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  },
+  {
+    "asnum": 201701,
+    "whois_asnum": "stat.ripe.net/as201701",
+    "name": "Freifunk Rheinland e.V.",
+    "as_macro": "AS-FFRL",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-FFRL",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": "http://www.ffrl.de/"
+  },
+  {
+    "asnum": 206356,
+    "whois_asnum": "stat.ripe.net/as206356",
+    "name": "Freifunk Essen e.V.",
+    "as_macro": "AS-FFE",
+    "whois_as_macro": "apps.db.ripe.net/db-web-ui/#/query?bflag&source=RIPE&types=as-set&searchtext=AS-FFE",
+    "status": "ACTIVE",
+    "peering_policy_list": "Open",
+    "url_peering_policy": ""
+  }
+]
